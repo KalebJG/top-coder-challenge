@@ -1,0 +1,199 @@
+Analysis of 1000 test cases
+
+=== PER DIEM ANALYSIS ===
+Minimum reimbursement by trip duration:
+Days: 1, Min reimbursement: $117.24, Per day: $117.24
+Days: 2, Min reimbursement: $203.52, Per day: $101.76
+Days: 3, Min reimbursement: $303.20, Per day: $101.07
+Days: 4, Min reimbursement: $322.00, Per day: $80.50
+Days: 5, Min reimbursement: $406.70, Per day: $81.34
+Days: 6, Min reimbursement: $522.58, Per day: $87.10
+Days: 7, Min reimbursement: $482.65, Per day: $68.95
+Days: 8, Min reimbursement: $543.56, Per day: $67.94
+Days: 9, Min reimbursement: $601.81, Per day: $66.87
+Days: 10, Min reimbursement: $774.64, Per day: $77.46
+Days: 11, Min reimbursement: $695.66, Per day: $63.24
+Days: 12, Min reimbursement: $789.01, Per day: $65.75
+Days: 13, Min reimbursement: $710.25, Per day: $54.63
+Days: 14, Min reimbursement: $866.76, Per day: $61.91
+
+Five-day trips average reimbursement: $1272.59
+
+=== MILEAGE ANALYSIS ===
+
+=== RECEIPTS ANALYSIS ===
+
+Trip duration: 1 days, Mile bin: 50-100
+Average rate per receipt dollar by amount range:
+  Receipts 0-100: $1.1645/dollar
+
+Trip duration: 2 days, Mile bin: 750-800
+Average rate per receipt dollar by amount range:
+  Receipts 400-1000: $0.8069/dollar
+  Receipts 1000+: $0.0484/dollar
+
+Trip duration: 3 days, Mile bin: 50-100
+Average rate per receipt dollar by amount range:
+  Receipts 0-100: $0.9787/dollar
+  Receipts 400-1000: $0.9358/dollar
+
+Trip duration: 4 days, Mile bin: 250-300
+Average rate per receipt dollar by amount range:
+  Receipts 1000+: $0.4905/dollar
+
+Trip duration: 5 days, Mile bin: 100-150
+Average rate per receipt dollar by amount range:
+  Receipts 0-100: $-0.5737/dollar
+  Receipts 100-400: $1.5551/dollar
+  Receipts 400-1000: $0.7689/dollar
+
+Trip duration: 6 days, Mile bin: 800-850
+Average rate per receipt dollar by amount range:
+  Receipts 400-1000: $0.9977/dollar
+  Receipts 1000+: $-0.1521/dollar
+
+Trip duration: 7 days, Mile bin: 600-650
+Average rate per receipt dollar by amount range:
+  Receipts 100-400: $0.6746/dollar
+  Receipts 400-1000: $0.4999/dollar
+  Receipts 1000+: $0.1471/dollar
+
+Trip duration: 8 days, Mile bin: 850-900
+Average rate per receipt dollar by amount range:
+  Receipts 1000+: $-0.7470/dollar
+
+Trip duration: 9 days, Mile bin: 800-850
+Average rate per receipt dollar by amount range:
+  Receipts 0-100: $0.5131/dollar
+  Receipts 400-1000: $1.5382/dollar
+  Receipts 1000+: $-0.0420/dollar
+
+Trip duration: 10 days, Mile bin: 150-200
+Average rate per receipt dollar by amount range:
+  Receipts 400-1000: $0.9243/dollar
+  Receipts 1000+: $0.1950/dollar
+
+Trip duration: 11 days, Mile bin: 900-950
+Average rate per receipt dollar by amount range:
+  Receipts 1000+: $0.1885/dollar
+
+Trip duration: 12 days, Mile bin: 950-1000
+Average rate per receipt dollar by amount range:
+  Receipts 1000+: $1.2395/dollar
+
+Trip duration: 13 days, Mile bin: 0-50
+Average rate per receipt dollar by amount range:
+  Receipts 0-100: $0.5936/dollar
+  Receipts 100-400: $0.9158/dollar
+  Receipts 400-1000: $-63.0844/dollar
+
+=== SPECIAL CASES ANALYSIS ===
+Distribution of cents in reimbursement amounts:
+  00 cents: 12 occurrences (1.2%)
+  01 cents: 8 occurrences (0.8%)
+  02 cents: 11 occurrences (1.1%)
+  03 cents: 8 occurrences (0.8%)
+  04 cents: 14 occurrences (1.4%)
+  05 cents: 9 occurrences (0.9%)
+  06 cents: 12 occurrences (1.2%)
+  07 cents: 11 occurrences (1.1%)
+  08 cents: 11 occurrences (1.1%)
+  09 cents: 9 occurrences (0.9%)
+  10 cents: 15 occurrences (1.5%)
+  11 cents: 6 occurrences (0.6%)
+  12 cents: 17 occurrences (1.7%)
+  13 cents: 13 occurrences (1.3%)
+  14 cents: 11 occurrences (1.1%)
+  15 cents: 6 occurrences (0.6%)
+  16 cents: 14 occurrences (1.4%)
+  17 cents: 11 occurrences (1.1%)
+  18 cents: 16 occurrences (1.6%)
+  19 cents: 10 occurrences (1.0%)
+  20 cents: 10 occurrences (1.0%)
+  21 cents: 9 occurrences (0.9%)
+  23 cents: 13 occurrences (1.3%)
+  24 cents: 16 occurrences (1.6%)
+  25 cents: 8 occurrences (0.8%)
+  26 cents: 11 occurrences (1.1%)
+  27 cents: 7 occurrences (0.7%)
+  28 cents: 7 occurrences (0.7%)
+  30 cents: 9 occurrences (0.9%)
+  31 cents: 12 occurrences (1.2%)
+  33 cents: 12 occurrences (1.2%)
+  34 cents: 14 occurrences (1.4%)
+  35 cents: 8 occurrences (0.8%)
+  36 cents: 13 occurrences (1.3%)
+  37 cents: 11 occurrences (1.1%)
+  38 cents: 7 occurrences (0.7%)
+  39 cents: 9 occurrences (0.9%)
+  40 cents: 11 occurrences (1.1%)
+  41 cents: 12 occurrences (1.2%)
+  42 cents: 12 occurrences (1.2%)
+  43 cents: 6 occurrences (0.6%)
+  45 cents: 8 occurrences (0.8%)
+  46 cents: 12 occurrences (1.2%)
+  47 cents: 12 occurrences (1.2%)
+  48 cents: 8 occurrences (0.8%)
+  49 cents: 9 occurrences (0.9%)
+  50 cents: 7 occurrences (0.7%)
+  52 cents: 12 occurrences (1.2%)
+  53 cents: 10 occurrences (1.0%)
+  54 cents: 9 occurrences (0.9%)
+  55 cents: 9 occurrences (0.9%)
+  56 cents: 10 occurrences (1.0%)
+  57 cents: 11 occurrences (1.1%)
+  58 cents: 14 occurrences (1.4%)
+  59 cents: 6 occurrences (0.6%)
+  60 cents: 8 occurrences (0.8%)
+  62 cents: 9 occurrences (0.9%)
+  63 cents: 8 occurrences (0.8%)
+  64 cents: 11 occurrences (1.1%)
+  65 cents: 12 occurrences (1.2%)
+  66 cents: 11 occurrences (1.1%)
+  67 cents: 10 occurrences (1.0%)
+  68 cents: 16 occurrences (1.6%)
+  69 cents: 12 occurrences (1.2%)
+  70 cents: 6 occurrences (0.6%)
+  71 cents: 8 occurrences (0.8%)
+  72 cents: 15 occurrences (1.5%)
+  73 cents: 10 occurrences (1.0%)
+  74 cents: 6 occurrences (0.6%)
+  75 cents: 7 occurrences (0.7%)
+  76 cents: 11 occurrences (1.1%)
+  77 cents: 9 occurrences (0.9%)
+  78 cents: 9 occurrences (0.9%)
+  79 cents: 8 occurrences (0.8%)
+  80 cents: 10 occurrences (1.0%)
+  81 cents: 10 occurrences (1.0%)
+  82 cents: 6 occurrences (0.6%)
+  83 cents: 8 occurrences (0.8%)
+  84 cents: 7 occurrences (0.7%)
+  85 cents: 14 occurrences (1.4%)
+  86 cents: 8 occurrences (0.8%)
+  87 cents: 16 occurrences (1.6%)
+  88 cents: 9 occurrences (0.9%)
+  89 cents: 10 occurrences (1.0%)
+  90 cents: 13 occurrences (1.3%)
+  91 cents: 9 occurrences (0.9%)
+  92 cents: 10 occurrences (1.0%)
+  93 cents: 10 occurrences (1.0%)
+  94 cents: 15 occurrences (1.5%)
+  95 cents: 13 occurrences (1.3%)
+  96 cents: 14 occurrences (1.4%)
+  97 cents: 10 occurrences (1.0%)
+  98 cents: 11 occurrences (1.1%)
+  99 cents: 6 occurrences (0.6%)
+
+Cases with receipts ending in .49:
+  Days: 4, Miles: 650.0, Receipts: $619.49, Reimbursement: $676.38
+  Days: 1, Miles: 263.0, Receipts: $396.49, Reimbursement: $198.42
+  Days: 1, Miles: 451.0, Receipts: $555.49, Reimbursement: $162.18
+  Days: 2, Miles: 565.0, Receipts: $389.49, Reimbursement: $415.96
+  Days: 9, Miles: 397.0, Receipts: $348.49, Reimbursement: $913.29
+
+Cases with receipts ending in .99:
+  Days: 3, Miles: 117.0, Receipts: $21.99, Reimbursement: $359.10
+  Days: 6, Miles: 204.0, Receipts: $818.99, Reimbursement: $628.40
+  Days: 10, Miles: 424.0, Receipts: $474.99, Reimbursement: $831.96
+  Days: 1, Miles: 532.0, Receipts: $413.99, Reimbursement: $355.57
+  Days: 5, Miles: 754.0, Receipts: $489.99, Reimbursement: $765.13
